@@ -62,9 +62,6 @@ class TicTacToe
     end
   end 
 
-  def valid_move?(input)
-    input.to_i.between?(1, 9) && !position_taken?(input.to_i-1)
-  end
 
   def current_player
     turn_count % 2 == 0 ? "X" : "O"
