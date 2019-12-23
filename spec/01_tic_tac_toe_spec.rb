@@ -306,4 +306,3 @@ describe './lib/tic_tac_toe.rb' do
       expect(winner(board)).to be_nil
     end
   end
-end
