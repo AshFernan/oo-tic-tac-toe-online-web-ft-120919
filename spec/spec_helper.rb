@@ -1,4 +1,7 @@
-require_relative "../lib/tic_tac_toe.rb"
+require 'simplecov'
+SimpleCov.start do
+  add_filter "/spec"
+end
 
 RSpec.configure do |config|
   config.order = :default
