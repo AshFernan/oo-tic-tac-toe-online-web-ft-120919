@@ -60,7 +60,8 @@ class TicTacToe
     else
       false
     end
-  end 
+  end
+ 
 
 
   def current_player
